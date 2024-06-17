@@ -3,10 +3,10 @@
 Data Cleaning Process for Airbnb Dataset
 This README file outlines the steps involved in the data cleaning process for the Airbnb dataset. The goal of data cleaning is to ensure the dataset is accurate, complete, and ready for analysis and visualization.
 
-#Steps Involved in Data Cleaning
-#Loading the Data:
+# Steps Involved in Data Cleaning
+# Loading the Data:
 
-#Import the necessary libraries.
+# Import the necessary libraries.
 Load the dataset into a Pandas DataFrame.
 python
 
@@ -14,38 +14,38 @@ import pandas as pd
 df = pd.read_csv('airbnb.csv')
 #Handling Missing Values:
 
-#Identify missing values in the dataset.
+# Identify missing values in the dataset.
 Decide on a strategy to handle missing values (e.g., removing rows, filling with mean/median/mode, etc.).
 
-#Removing Duplicates:
+# Removing Duplicates:
 
 Check for and remove duplicate rows to ensure the dataset contains unique records.
 
-#Data Type Conversion:
+# Data Type Conversion:
 
 Ensure that each column has the correct data type (e.g., integers, floats, strings, dates).
 
-#Handling Outliers:
+# Handling Outliers:
 
 Identify and handle outliers in the dataset to improve the quality of analysis.
 
-#Standardizing Text Data:
+# Standardizing Text Data:
 
 Ensure consistency in text data by standardizing the format (e.g., converting to lowercase, removing special characters).
 
-#Creating New Columns:
+# Creating New Columns:
 
 Derive new columns from existing ones if necessary for the analysis.
 
-#Renaming Columns:
+# Renaming Columns:
 
 Rename columns to more meaningful names if necessary.
 
-#Dropping Unnecessary Columns:
+# Dropping Unnecessary Columns:
 
 Remove columns that are not needed for the analysis to reduce complexity.
 
-#Final Check:
+# Final Check:
 
 Perform a final check to ensure the dataset is clean and ready for analysis.
 python
@@ -88,7 +88,7 @@ git clone https://github.com/your-username/airbnb-visualization.git
 cd airbnb-visualization
 #Install the required dependencies:
 
-#Run the Streamlit application:
+# Run the Streamlit application:
 
 
 streamlit run airbnb.py
@@ -121,13 +121,10 @@ Management Page
 
 Explore Page
 
-Contributing
+# Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-License
-This project is licensed under the MIT License.
-
-Contact
+# Contact
 If you have any questions, feel free to contact the project maintainer at krishnaganth2206@gmail.com.
 
 #OUTPUT:
@@ -135,5 +132,5 @@ If you have any questions, feel free to contact the project maintainer at krishn
 <img width="910" alt="image" src="https://github.com/Krishnaganth22/Airbnb-Analysis/assets/161042495/e6bce911-3bad-4c03-ba1a-89175a0c5a7f">
 
 
-#Thank you !
+# Thank you !
 

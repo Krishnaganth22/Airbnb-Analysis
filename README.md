@@ -97,13 +97,7 @@ Open your browser and navigate to the displayed URL (usually http://localhost:85
 Use the sidebar to navigate between different sections of the application.
 
 Project Structure
-bash
-Copy code
-airbnb-visualization/
-│
-├── airbnb.py                   # Main application script
-├── requirements.txt            # List of required Python packages
-└── README.md                   # Project documentation
+
 Dependencies
 Python 3.7+
 Streamlit
